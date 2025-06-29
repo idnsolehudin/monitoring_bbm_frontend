@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Wings Corp | {{ $title }}</title>
-    <link rel="icon" href="/images/wings-logo.png" type="image/x-icon">
+    <link rel="icon" href="images/wings-logo.png" type="image/x-icon">
     <!-- Bootstrap -->
     <link href="/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
