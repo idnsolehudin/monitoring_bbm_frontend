@@ -17,7 +17,7 @@
                             <div class="col-md-8 col-sm-8">
                                 <div>
                                     @if ($vehicle['images'] == "")
-                                        <img src="/images/mobil_kiriman.png" style="width: 80%; height: 60%;" alt="image" />
+                                        <img src="../public/images/mobil_kiriman.png" style="width: 80%; height: 60%;" alt="image" />
                                     @else
                                         <img src="https://monitoringbbm.com/files/{{ $vehicle['images'] }}" style="width: 80%; height: 60%;" alt="image" />
                                     @endif

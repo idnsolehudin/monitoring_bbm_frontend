@@ -11,7 +11,7 @@
                   <li class="nav-item dropdown open" style="padding-left: 15px;">
                     <a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
                       @if (session('user')['image'] == "")
-                      <img src="/images/user.png" alt=""> 
+                      <img src="../public/images/user.png" alt=""> 
                       @else
                       <img src="https://monitoringbbm.com/files/{{ session('user')['image'] }}" alt="">                      
                       @endif

@@ -51,7 +51,7 @@
                               </div>
                               <div class="right col-md-5 col-sm-5 text-center">
                                 @if ($user['images'] == "")                                  
-                                <img src="/images/user.png" alt="" class="img-circle img-fluid">
+                                <img src="../public/images/user.png" alt="" class="img-circle img-fluid">
                                 @else
                                 <img src="https://monitoringbbm.com/files/{{ $user['images'] }}" alt="" class="img-circle img-fluid" style="height: 130px; width: 130px;">
                                 @endif

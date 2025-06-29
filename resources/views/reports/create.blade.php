@@ -24,7 +24,7 @@
                                 <div class="position relative col-md-5 col-sm-5 p-3" style="position: relative;">
                                     <img 
                                     id="odometerFoto"
-                                    src="/images/up_odometer.png"
+                                    src="../public/images/up_odometer.png"
                                     width="75%" height="300px">
                                     <div class="position-absolute bg-dark rounded rounded-circle pt-2 pb-1 pl-2 pr-2" style="position: absolute; bottom: 15px; right:50px;">
                                         <label for="fotoOdometer"><i class="fa fa-camera-retro fa-2xl" style="color: #e7e1e1; font-size:20px;"></i></label>
@@ -34,7 +34,7 @@
                                 <div class="position relative col-md-5 col-sm-5 p-3" style="position: relative;">
                                     <img 
                                     id="fulfillmentFoto"
-                                    src="/images/up_spbu.png"
+                                    src="../public/images/up_spbu.png"
                                     width="75%" height="300px">
                                     <div class="position-absolute bg-dark rounded rounded-circle pt-2 pb-1 pl-2 pr-2" style="position: absolute; bottom: 15px; right:50px;">
                                         <label for="fotoFulfillment"><i class="fa fa-camera-retro fa-2xl" style="color: #e7e1e1; font-size:20px;"></i></label>
@@ -44,7 +44,7 @@
                                 <div class="position relative col-md-5 col-sm-5 p-3" style="position: relative;">
                                     <img 
                                     id="dispenserFoto"
-                                    src="/images/up_dispenser.png"
+                                    src="../public/images/up_dispenser.png"
                                     width="75%" height="300px">
                                     <div class="position-absolute bg-dark rounded rounded-circle pt-2 pb-1 pl-2 pr-2" style="position: absolute; bottom: 15px; right:50px;">
                                         <label for="fotoDispenser"><i class="fa fa-camera-retro fa-2xl" style="color: #e7e1e1; font-size:20px;"></i></label>
@@ -54,7 +54,7 @@
                                 <div class="position relative col-md-5 col-sm-5 p-3" style="position: relative;">
                                     <img 
                                     id="receiptFoto"
-                                    src="/images/up_struk.png"
+                                    src="../public/images/up_struk.png"
                                     width="75%" height="300px">
                                     <div class="position-absolute bg-dark rounded rounded-circle pt-2 pb-1 pl-2 pr-2" style="position: absolute; bottom: 15px; right:50px;">
                                         <label for="fotoReceipt"><i class="fa fa-camera-retro fa-2xl" style="color: #e7e1e1; font-size:20px;"></i></label>

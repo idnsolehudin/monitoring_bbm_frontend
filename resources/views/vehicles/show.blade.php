@@ -29,7 +29,7 @@
                       <div class="thumbnail">
                         <div class="image view view-first">
                           @if ($vehicle['images'] == "")                            
-                            <img style="width: 100%; display: block;" src="/images/mobil_kiriman.png" />
+                            <img style="width: 100%; display: block;" src="../public/images/mobil_kiriman.png" />
                           @else
                             <img style="width: 100%; display: block;" src="https://monitoringbbm.com/files/{{ $vehicle['images'] }}" alt="image" />
                           @endif

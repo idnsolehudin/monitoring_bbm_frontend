@@ -2,7 +2,7 @@
   <div class="left_col scroll-view">
     <div class="navbar nav_title" style="border: 0;">
       <a href="index.html" class="site_title">
-        <img src="/images/wings-logo.png" alt="logo wings" class="w-25">
+        <img src="../public/images/wings-logo.png" alt="logo wings" class="w-25">
         <span>Wings Group</span>
       </a>
     </div>
@@ -13,7 +13,7 @@
     <div class="profile clearfix">
       <div class="profile_pic">
         @if (session('user')['image'] == "")
-          <img src="/images/user.png" alt="..." class="img-circle profile_img">
+          <img src="../public/images/user.png" alt="..." class="img-circle profile_img">
           @else
           <img src="https://monitoringbbm.com/files/{{ session('user')['image'] }}" alt="..." class="img-circle profile_img">
         @endif

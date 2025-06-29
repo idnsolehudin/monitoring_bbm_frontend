@@ -11,17 +11,17 @@
     <title>Wings Corp | {{ $title }}</title>
     <link rel="icon" href="../public/images/wings-logo.png" type="image/x-icon">
     <!-- Bootstrap -->
-    <link href="/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../public/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../public/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- NProgress -->
-    <link href="/nprogress/nprogress.css" rel="stylesheet">
+    <link href="../public/nprogress/nprogress.css" rel="stylesheet">
     <!-- bootstrap-daterangepicker -->
-    <link href="/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+    <link href="../public/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
 
     <!-- Custom Theme Style -->
-    <link href="/build/css/custom.min.css" rel="stylesheet">
+    <link href="../public/build/css/custom.min.css" rel="stylesheet">
   </head>
 <body class="nav-md">
     <div class="container body">

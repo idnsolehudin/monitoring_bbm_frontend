@@ -19,7 +19,7 @@
                                 <div class="position relative" style="position: relative;">
                                     <img 
                                     id="previewFoto"
-                                    src="{{ $user['images'] ? 'https://monitoringbbm.com/files/'.$user['images'] : '/images/user-icon.png'}}"
+                                    src="{{ $user['images'] ? 'https://monitoringbbm.com/files/'.$user['images'] : '../public/images/user-icon.png'}}"
                                     width="75%" height="600px">
                                     <div class="position-absolute bg-dark rounded rounded-circle pt-4 pb-3 pl-3 pr-3" style="position: absolute; bottom: 15px; right:90px;">
                                         <label for="fotoInput"><i class="fa fa-camera-retro fa-2xl" style="color: #e7e1e1; font-size:40px;"></i></label>

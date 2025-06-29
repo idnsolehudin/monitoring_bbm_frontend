@@ -21,7 +21,7 @@
                             <div class="col-md-8 col-sm-8">
                                 <div>
                                     @if ($user['images'] == "")
-                                        <img src="/images/user-icon.png" style="width: 80%; height: 60%;" alt="image" />
+                                        <img src="../public/images/user-icon.png" style="width: 80%; height: 60%;" alt="image" />
                                     @else
                                         <img src="https://monitoringbbm.com/files/{{ $user['images'] }}" style="width: 80%; height: 60%;" alt="image" />
                                     @endif

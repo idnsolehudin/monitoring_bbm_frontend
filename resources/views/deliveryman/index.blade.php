@@ -87,7 +87,7 @@
             style="
             width:80%;
             height:200px;
-            background-image: url('/images/user.png');
+            background-image: url('../public/images/user.png');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -114,19 +114,19 @@
     <div class="d-flex justify-content-between mt-4">
         <a href="{{ route('form.create.reports') }}" style="text-decoration: none">
             <div class="text-center menu-btn mx-2">
-            <img src="/images/icon-input.png" alt="" class="w-50">
+            <img src="../public/images/icon-input.png" alt="" class="w-50">
             <div class="menu-label">Input Laporan</div>
             </div>
          </a>
         <a href="{{ route('user.reports', $user['id']) }}" style="text-decoration: none">
             <div class="text-center menu-btn mx-2">
-              <img src="/images/icon-reports.jpg" alt="" class="w-50">
+              <img src="../public/images/icon-reports.jpg" alt="" class="w-50">
               <div class="menu-label">Cek Laporan</div>
             </div>
         </a>
          <a href="{{ route('edit.profil', $user['id']) }}" style="text-decoration: none">
             <div class="text-center menu-btn mx-2">
-                <img src="/images/icon-edit-profile.webp" alt="" class="w-50">
+                <img src="../public/images/icon-edit-profile.webp" alt="" class="w-50">
                 <div class="menu-label">Edit Data Profil</div>
             </div>
         </a>
